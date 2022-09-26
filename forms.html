@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <legend> About you</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" ><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" ><br>
+            <br>
+            <label for = "Gender"> Gender: </label>
+            <br>
+            <input type="radio" name = "Gender" value="Male">Male
+            <input type="radio" name = "Gender" value="Female">Female
+            <input type="radio" name = "Gender" value="Other">Other
+            <br>
+            
+            <label for="address"><b> Address </b></label><br>
+            <input type = "text" name="address" name="house number and street" > House number and street<br>
+            <input type = "text" name="address" name="Area"> Area<br>
+            <input type = "text" name="address" name="City and state"> City and State<br>
+            </fieldset>
+          
+            <fieldset>
+                <legend>Contact Detail</legend>
+            <label for="phNumber">Phone Number</label>&nbsp;
+            <input type="tel"> &nbsp;<br>
+            <label for="EmailID">Email:</label>&nbsp;
+            <input type="email"><br>&nbsp;
+            <label for="password">Password:</label>&nbsp;
+            <input type="password"><br>&nbsp;
+            <label for="LinkedInID">LinkedInID</label> &nbsp;
+            <input type="url"><br>&nbsp;
+        </fieldset>
+           <fieldset>
+            <legend> Courses you want to learn: </legend>
+            <input type="checkbox" name = "html" value = "HTML">HTML
+            <input type="checkbox" name="CSS" id="CSS">CSS
+            <input type="checkbox" name="Java" id="JAVA">JAVA
+            <br>
+           </fieldset>
+           <br>
+           <fieldset>
+            <legend> ID Proofs </legend><br>
+                <label for = "IDs"> Choose one option:</label>
+            <select name = "ID proofs"> <br>
+                <option value = "Select">Select from the drop down </option>
+                <option value = "Aadhaar Card"> Aadhaar Card</option>
+                <option value = "Driving Liscense"> Driving Liscense</option>
+                <option value = "Voter ID"> Voter ID</option>
+            </select>
+            <br>
+            <label for=" uploadFile"> Upload Your ID Proof</label>
+            <input type="file" name="Upload your file here">
+            <br>
+            
+            <label for=" uploadFile"> Upload Your profile photo</label>
+            <input type="file" name="Upload your photo here">
+            <br>
+
+           </fieldset>
+           
+            <br>
+            <label for = "textarea"> AnyComments?</label> <br>
+            <textarea rows = "5" cols="10"> </textarea>
+            <br>
+            <br>
+            <input type="submit" name="Submit Button" value="Submit here">
+            <br>
+          </form>
+    </body>
